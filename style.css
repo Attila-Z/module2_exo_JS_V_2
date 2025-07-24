@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 30px auto;
+}
+  
+/* changement de thème */
+body.themeClair {
+  background-color: white;
+  color: black;
+}
+
+body.themeSombre {
+  background-color: black;
+  color: white;
+}
+.texte{
+    color: black;
+}
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+}
+  
+.tache {
+    display: flex;
+    justify-content: space-between;
+    background: #e0f7fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+  
+.fini{
+    width: 150px;
+} 
+.supprimer {
+    background: #fbc4c4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* responsive pour tablette et smartphone */
